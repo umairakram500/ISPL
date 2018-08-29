@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ReadMoreDirective } from './read-more.directive';
 
 import { AgmCoreModule } from '@agm/core';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
     declarations: [
@@ -35,7 +36,9 @@ import { AgmCoreModule } from '@agm/core';
         HeaderComponent,
         FooterComponent,
         
-        ReadMoreDirective
+        ReadMoreDirective,
+        
+        CareerComponent
     ],
     imports: [
         FormsModule,
